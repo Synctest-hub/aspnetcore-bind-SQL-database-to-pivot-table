@@ -13,6 +13,8 @@ To get started, Make sure that the following software to be installed in the mac
 * `Visual Studio Code`
 * `Visual Studio 2022`
 
+The compatible node versions of Vue >= 16+
+
 ## Guide to download and run sample
 
 To run this application, clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository and then navigate to the path where it has been stored in your system.

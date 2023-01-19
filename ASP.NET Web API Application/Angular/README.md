@@ -9,8 +9,11 @@ This repository contains client-side Angular sample for syncfusion pivot table.
 To get started, Make sure that the following software to be installed in the machine.
 
 * `git`
+* `Node.js`
 * `Visual Studio Code`
 * `Visual Studio 2022`
+
+The compatible versions of Angular should be `6+`.
 
 ## Guide to download and run sample
 
