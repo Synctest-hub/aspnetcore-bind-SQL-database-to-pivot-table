@@ -6,7 +6,11 @@ This repository contains client-side Javascript sample for syncfusion pivot tabl
 
 ## Prerequesties
 
-Make sure that you have the Visual Studio 2022 and Visual Studio Code in your machine before starting to work on the client Javascript project.
+To get started, Make sure that the following software to be installed in the machine.
+
+* `git`
+* `Visual Studio Code`
+* `Visual Studio 2022`
 
 ## Guide to download and run sample
 
@@ -14,10 +18,12 @@ To run this application, clone the [`How-to-bind-SQL-Database-to-PivotTable`](ht
 
 To do so, open the command prompt and run the below commands one after the other.
 
+```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table
+```
 
 Once done with downloading and follows the steps.
 
 * Run the **PivotController** (Server-side) Web Api application.
 * Navigate to client side sample for Javascript.
-* Open the `index.js` file.
+* In the javascript pivot-table sample, Open the `index.js` file in browser page.

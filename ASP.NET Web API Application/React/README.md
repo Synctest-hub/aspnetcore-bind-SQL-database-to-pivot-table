@@ -6,19 +6,32 @@ This repository contains client-side React sample for syncfusion pivot table.
 
 ## Prerequesties
 
-Make sure that you have the versions of NodeJS as abouve 14. or latest version, Visual Studio 2022 and Visual Studio Code in your machine before starting to work on the client React project.
+To get started, Make sure that the following software to be installed in the machine.
+
+* `git`
+* `Node.js`
+* `Visual Studio Code`
+* `Visual Studio 2022`
 
 ## Guide to download and run sample
 
 To run this application, clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository and then navigate to the path where it has been stored in your system.
 
-To do so, open the command prompt and run the below commands one after the other.
+To do so, open the command prompt and run the below command.
 
+```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table
+```
 
-Once done with downloading and follows the steps.
+Once done with downloading, follows the steps one after the other.
 
 * Run the **PivotController** (Server-side) Web Api application.
 * Navigate to client side sample for React.
-* Run command `npm install`.
-* Once done installation with node_modules, Run command `npm start`.
+* In the react pivot-table sample, Run the below command to install the node_modules,
+```sh
+npm install
+```
+* Once done installation, Run the next command
+```sh
+npm start
+```

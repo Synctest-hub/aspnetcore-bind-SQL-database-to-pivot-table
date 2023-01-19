@@ -6,7 +6,11 @@ This repository contains client-side ASP.NET Core sample for syncfusion pivot ta
 
 ## Prerequesties
 
-Make sure that you have the Visual Studio 2022 in your machine before starting to work on the client ASP.NET Core project.
+To get started, Make sure that the following software to be installed in the machine.
+
+* `git`
+* `Visual Studio Code`
+* `Visual Studio 2022`
 
 ## Guide to download and run sample
 
@@ -14,9 +18,11 @@ To run this application, clone the [`How-to-bind-SQL-Database-to-PivotTable`](ht
 
 To do so, open the command prompt and run the below commands one after the other.
 
+```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table
+```
 
-Once done with downloading and follows the steps.
+Once done with downloading, follows the steps one after the other.
 
 * Run the **PivotController** (Server-side) Web Api application.
 * Navigate to client side sample for ASP.NET Core.

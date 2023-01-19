@@ -6,15 +6,20 @@ This repository contains controllers in ASP.NET Core API and ASP.NET Web API App
 
 ## Prerequesties
 
-Make sure that you have the Visual Studio 2022 in your machine before starting to work on the servar-side applicarion.
+To get started, Make sure that the following software to be installed in the machine.
+
+* `Visual Studio Code`.
+* `Visual Studio 2022`.
 
 ## Guide to download
 
 To run this application, clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository and then navigate to the path where it has been stored in your system.
 
-To do so, open the command prompt and run the below commands one after the other.
+To do so, open the command prompt and run the below command.
 
+```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table
+```
 
 Once done with downloading, this repository contains the folders as below
 

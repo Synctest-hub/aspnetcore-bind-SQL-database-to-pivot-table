@@ -1,0 +1,32 @@
+{
+    "name": "ej2",
+    "version": "20.4.44",
+    "components": [
+        "pivotfieldlist",
+        "pivotview"
+    ],
+    "injectables": {
+        "pivotfieldlist": [
+            "CalculatedField"
+        ],
+        "pivotview": [
+            "GroupingBar",
+            "FieldList",
+            "CalculatedField",
+            "ConditionalFormatting",
+            "VirtualScroll",
+            "DrillThrough",
+            "Toolbar",
+            "PivotChart",
+            "PDFExport",
+            "ExcelExport",
+            "NumberFormatting",
+            "Grouping",
+            "Pager"
+        ]
+    },
+    "minified": false,
+    "themes": [
+        "material"
+    ]
+}
