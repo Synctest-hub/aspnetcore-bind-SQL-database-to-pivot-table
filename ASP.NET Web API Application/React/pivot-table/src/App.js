@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   let dataSourceSettings = {
-    url: 'https://localhost:44394/api/product',
+    url: 'https://localhost:44300/api/product',
     enableSorting: true,
     expandAll: false,
     columns: [{ name: 'Product' }],

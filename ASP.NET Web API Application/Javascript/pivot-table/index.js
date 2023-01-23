@@ -1,6 +1,6 @@
 var pivotObj = new ej.pivotview.PivotView({
 	dataSourceSettings: {
-		url: 'https://localhost:44394/api/product',
+		url: 'https://localhost:44300/api/product',
         enableSorting: true,
         expandAll: false,
         columns: [{ name: 'Product' }],
