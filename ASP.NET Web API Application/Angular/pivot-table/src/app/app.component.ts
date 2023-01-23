@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
         this.dataSourceSettings = {
           enableSorting: true,
           expandAll: false,
-          url: 'https://localhost:44394/api/product',
+          url: 'https://localhost:44300/api/product',
           columns: [{ name: 'Product' }],
           values: [{ name: 'Quantity' }, { name: 'Amount', caption: 'Sold Amount' }],
           rows: [{ name: 'Country' }, { name: 'State' }],
