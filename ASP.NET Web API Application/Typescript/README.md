@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This repository contains client-side Typescript sample for syncfusion pivot table.
+A quick start typescript project that shows how to bind SQL Database to Typescript Pivot Table. This project contains client-side typescript sample for syncfusion pivot table.
+
+Documentation: https://ej2.syncfusion.com/documentation/pivotview/getting-started/
 
 ## Prerequesties
 
@@ -10,20 +12,24 @@ To get started, Make sure that the following software to be installed in the mac
 
 * `git`
 * `Node.js`
-* `Visual Studio Code`
-* `Visual Studio 2022`
+* `Visual Studio Code` (optional)
+* `Visual Studio 2022` (optional)
 
 ## Guide to download and run sample
 
-To run this application, clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository and then navigate to the path where it has been stored in your system.
+Need to run the application. To do so,
 
-To do so, open the command prompt and run the below command.
+* Clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository (or)
+
+* Open the command prompt and run the below command.
 
 ```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table
 ```
 
-Once done with downloading, follows the steps one after the other.
+* Once done with downloading, Then navigate to the path where it has been stored in your system
+
+Now follows the steps one after the other:
 
 * Run the **PivotController** (Server-side) Web Api application.
 * Navigate to client side sample for Typescript.
