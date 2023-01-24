@@ -8,8 +8,8 @@ This repository contains controllers in ASP.NET Core API and ASP.NET Web API App
 
 To get started, Make sure that the following software to be installed in the machine.
 
-* `Visual Studio Code` (optional)
-* `Visual Studio 2022` (optional)
+* `Visual Studio Code` (optional).
+* `Visual Studio 2022` (optional).
 
 ## Guide to download
 
