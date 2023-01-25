@@ -31,9 +31,9 @@ git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivo
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** (Server-side) Core Api application.
+* Run the **PivotController** (server-side) Core Api application.
 * Navigate to Syncfusion Pivot Table sample for Typescript.
-* In the typescript pivot-table (Client-side) sample, Run the below command to install the NPM packages.
+* In the typescript pivot-table (client-side) sample, Run the below command to install the NPM packages.
 ```sh
 npm install
 ```

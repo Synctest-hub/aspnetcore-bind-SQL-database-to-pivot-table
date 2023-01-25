@@ -33,9 +33,9 @@ git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivo
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** Web Api (Server-side) application.
+* Run the **PivotController** Web Api (server-side) application.
 * Navigate to Syncfusion Pivot Table sample for Angular.
-* In the Anguar pivot-table (Client-side) sample, Run the below command to install the NPM packages.
+* In the Anguar pivot-table (client-side) sample, Run the below command to install the NPM packages.
 ```sh
 npm install
 ```

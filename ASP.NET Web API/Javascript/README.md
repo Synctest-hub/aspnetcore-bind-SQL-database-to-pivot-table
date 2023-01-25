@@ -30,6 +30,6 @@ git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivo
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** (Server-side) Web Api application.
+* Run the **PivotController** (server-side) Web Api application.
 * Navigate to Syncfusion Pivot Table sample for Javascript.
-* In the javascript pivot-table (Client-side) sample, Open the `index.html` file in browser page.
+* In the javascript pivot-table (client-side) sample, Open the `index.html` file in browser page.

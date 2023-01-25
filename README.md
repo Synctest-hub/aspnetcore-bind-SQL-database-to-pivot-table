@@ -29,9 +29,9 @@ git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivo
 2. ASP.NET Web API
 
 * You can get the runnable `PivotController` by Core API and Web API (server-side) Application.
-* And also you get runnable Syncfusion Pivot Table (Client-side) samples for ASP.NET Core, ASP.NET MVC, Angular, React, Vue, JavaScript and Typescript platforms under the respective folders. 
+* And also you get runnable Syncfusion Pivot Table (client-side) samples for ASP.NET Core, ASP.NET MVC, Angular, React, Vue, JavaScript and Typescript platforms under the respective folders. 
 
 ## Guide to Run sample
 
 * You need to run the `PivotController` (server-side) to get the API link.
-* You need to run the pivot table samples (Client-side) to get the pivot table with SQL Database datasource.
+* You need to run the pivot table samples (client-side) to get the pivot table with SQL Database datasource.

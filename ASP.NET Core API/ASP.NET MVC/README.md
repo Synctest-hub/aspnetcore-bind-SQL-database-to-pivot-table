@@ -30,6 +30,6 @@ git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivo
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** Core Api (Server-side) application.
+* Run the **PivotController** Core Api (server-side) application.
 * Navigate to Syncfusion Pivot Table sample for ASP.NET MVC.
-* Run the **PivotTable** Core (Client-side) sample.
+* Run the **PivotTable** Core (client-side) sample.

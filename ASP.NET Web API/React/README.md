@@ -33,9 +33,9 @@ git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivo
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** (Server-side) Web Api application.
+* Run the **PivotController** (server-side) Web Api application.
 * Navigate to Syncfusion Pivot Table sample for React.
-* In the react pivot-table (Client-side) sample, Run the below command to install the NPM packages.
+* In the react pivot-table (client-side) sample, Run the below command to install the NPM packages.
 ```sh
 npm install
 ```
