@@ -4,7 +4,8 @@ import { FieldListService, IDataOptions, IDataSet } from '@syncfusion/ej2-angula
 @Component({
   selector: 'app-root',
   // specifies the template string for the pivot table component
-  template: `<ejs-pivotview #pivotview id='PivotView' height='350' [dataSourceSettings]=dataSourceSettings></ejs-pivotview>`,
+  template: `<ejs-pivotview #pivotview id='PivotView' height='350' [dataSourceSettings]=dataSourceSettings
+    showFieldList='true'></ejs-pivotview>`,
   providers: [FieldListService],
 })
 export class AppComponent implements OnInit {
