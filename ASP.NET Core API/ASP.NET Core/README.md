@@ -20,13 +20,13 @@ Need to run the application. To do so,
 
 * Clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository (or)
 
-* Open the command prompt and run the below command.
+* Open the command prompt and run the command below,
 
 ```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table.git
 ```
 
-* Once done with downloading, Then navigate to the path where it has been stored in your system
+* Once done with downloading, Then navigate to the path where it has been stored in your system.
 
 Now follows the steps one after the other:
 

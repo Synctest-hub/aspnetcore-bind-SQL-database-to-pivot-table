@@ -21,18 +21,18 @@ Need to run the application. To do so,
 
 * Clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository (or)
 
-* Open the command prompt and run the below command.
+* Open the command prompt and run the command below,
 
 ```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table.git
 ```
 
-* Once done with downloading, Then navigate to the path where it has been stored in your system
+* Once done with downloading, Then navigate to the path where it has been stored in your system.
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** (server-side) Core Api application.
-* Navigate to Syncfusion Pivot Table sample for Typescript.
+* Run the **PivotController** Core Api (server-side) application.
+* Navigate to client side sample for Typescript.
 * In the typescript pivot-table (client-side) sample, Run the below command to install the NPM packages.
 ```sh
 npm install

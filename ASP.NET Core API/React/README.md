@@ -10,10 +10,10 @@ A quick start React project that shows how to bind SQL Database to React Pivot T
 
 To get started, Make sure that the following software to be installed in the machine.
 
-* `git`
-* `Node.js`
-* `Visual Studio Code` (optional)
-* `Visual Studio 2022` (optional)
+* `git`.
+* `Node.js`.
+* `Visual Studio Code` (optional).
+* `Visual Studio 2022` (optional).
 
 The compatible versions of React should be `15.5.4+` and Required node version `>= 14.0.0+`, supported npm version will be installed along with node version.
 
@@ -23,17 +23,17 @@ Need to run the application. To do so,
 
 * Clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository (or)
 
-* Open the command prompt and run the below command.
+* Open the command prompt and run the command below,
 
 ```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table.git
 ```
 
-* Once done with downloading, Then navigate to the path where it has been stored in your system
+* Once done with downloading, Then navigate to the path where it has been stored in your system.
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** (server-side) Core Api application.
+* Run the **PivotController** Core Api (server-side) application.
 * Navigate to Syncfusion Pivot Table sample for React.
 * In the react pivot-table (client-side) sample, Run the below command to install the NPM packages,
 ```sh

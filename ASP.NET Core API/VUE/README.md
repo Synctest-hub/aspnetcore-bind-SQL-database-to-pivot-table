@@ -23,7 +23,7 @@ Need to run the application. To do so,
 
 * Clone the [`How-to-bind-SQL-Database-to-PivotTable`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository (or)
 
-* Open the command prompt and run the below command.
+* Open the command prompt and run the command below,
 
 ```sh
 git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table.git
@@ -33,7 +33,7 @@ git clone https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivo
 
 Now follows the steps one after the other:
 
-* Run the **PivotController** (server-side) Core Api application.
+* Run the **PivotController** Core Api (server-side) application.
 * Navigate to Syncfusion Pivot Table sample for Vue.
 * In the Vue pivot-table (client-side) sample, Run the below command to install the NPM packages.
 ```sh
