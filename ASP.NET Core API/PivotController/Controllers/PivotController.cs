@@ -7,7 +7,7 @@ namespace PivotController.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ProductController : ControllerBase
+    public class PivotController : ControllerBase
     {
         [HttpGet(Name = "GetSQLResult")]
         public object Get()

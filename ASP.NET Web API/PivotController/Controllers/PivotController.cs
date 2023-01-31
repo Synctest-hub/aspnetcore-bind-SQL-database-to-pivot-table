@@ -7,7 +7,7 @@ using System.Web.Http.Cors;
 namespace PivotController.Controllers
 {
     [EnableCors("*", "*", "*")]
-    public class ProductController : ApiController
+    public class PivotController : ApiController
     {
         // GET api/product
         [EnableCors("*", "*", "*")]
