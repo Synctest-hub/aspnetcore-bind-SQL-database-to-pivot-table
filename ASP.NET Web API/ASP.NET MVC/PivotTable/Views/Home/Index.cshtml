@@ -3,7 +3,7 @@
 }
 
 @Html.EJS().PivotView("PivotView").Height("300").DataSourceSettings(
-    dataSource => dataSource.Url("https://localhost:44300/pivot"
+    dataSource => dataSource.Url("https://localhost:44300/api/pivot"
     ).ExpandAll(false).EnableSorting(true)
 .Rows(rows =>
 {
