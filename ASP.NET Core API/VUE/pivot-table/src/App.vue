@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       dataSourceSettings: {
-        url: 'https://localhost:7139/pivot',
+        url: 'https://localhost:7284/pivot',
         enableSorting: true,
         expandAll: false,
         columns: [{ name: 'Product' }],

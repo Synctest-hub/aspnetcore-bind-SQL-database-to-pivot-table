@@ -18,7 +18,7 @@ namespace PivotController.Controllers
 
         public DataTable FetchSQLResult()
         {
-            string conSTR = @"<Enter your valid connection string here>";
+            string conSTR = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + AppDomain.CurrentDomain.BaseDirectory + @"App_Data\Database1.mdf;Integrated Security=True";
             string xquery = "SELECT * FROM table1";
             SqlConnection sqlConnection = new SqlConnection(conSTR);
             sqlConnection.Open();
