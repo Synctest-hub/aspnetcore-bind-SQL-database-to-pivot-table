@@ -1,8 +1,6 @@
-# How to bind SQL Database to Pivot table
+# How to bind SQL database to a Pivot Table
 
-A quick start project for connecting a SQL database to a Syncfusion Pivot Table. This repository includes a Web API Controller (PivotController) for retrieving data from a SQL Database, as well as a quick start sample for the Angular platform that displays the retrieved data in a Pivot Table.
-
-**Documentation:** https://ej2.syncfusion.com/angular/documentation/pivotview/getting-started/
+A quick start project for connecting a SQL database to a Syncfusion Pivot Table. This repository includes a Web API Controller ([MyWebService](../MyWebService/)) for retrieving data from a SQL database, as well as a quick start sample in the Angular platform that displays the retrieved data in a Pivot Table.
 
 ## Project prerequisites
 
@@ -12,11 +10,11 @@ Before beginning work on the server and client projects, ensure the following so
 * [Node.js](https://nodejs.org/en/)
 * [Angular](https://angularjs.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
-* Compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/ ) and [.NET Core SDK 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) or later installed on your machine.
+* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/ ) and [.NET Core SDK 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) or later installed on your machine.
 
 ## How to run this application?
 
-* To run this application, clone the `how-to-bind-SQL-database-to-pivot-table` repository and then open **PivotController** in Visual Studio 2022. Simply build and run your project in IIS Express, and it will host and display the URL `https://localhost:44300`.
+* To run this application, clone the [`how-to-bind-SQL-database-to-pivot-table`](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository and then open **MyWebService** project in Visual Studio 2022. Simply build and run your project in IIS Express, and it will host and display the URL 'https://localhost:44355'.
 
 *  Now open Angular sample in Visual Studio Code and and install the necessary npm packages using the following command.
 
