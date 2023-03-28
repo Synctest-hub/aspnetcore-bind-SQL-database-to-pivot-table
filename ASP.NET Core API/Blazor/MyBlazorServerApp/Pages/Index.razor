@@ -1,0 +1,60 @@
+﻿@page "/"
+@using Syncfusion.Blazor.PivotView;
+@using Newtonsoft.Json;
+@using System.Data;
+@using System.Data.SqlClient;
+
+<SfPivotView TValue="OrderDetails" Width="800" Height="360">
+    <PivotViewDataSourceSettings TValue="OrderDetails" DataSource="@dataSource">
+        <PivotViewColumns>
+            <PivotViewColumn Name="Product"></PivotViewColumn>
+        </PivotViewColumns>
+        <PivotViewRows>
+            <PivotViewRow Name="Date"></PivotViewRow>
+        </PivotViewRows>
+        <PivotViewValues>
+            <PivotViewValue Name="Amount"></PivotViewValue>
+        </PivotViewValues>
+        <PivotViewFormatSettings>
+            <PivotViewFormatSetting Name="Amount" Format="C2"></PivotViewFormatSetting>
+        </PivotViewFormatSettings>
+        </PivotViewDataSourceSettings>
+</SfPivotView>
+
+@code {
+    private List<OrderDetails> dataSource { get; set; }
+
+    protected override void OnInitialized()
+    {
+        string conSTR = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Environment.CurrentDirectory + @"\App_Data\Database1.mdf;Integrated Security=True"; ;
+        string xquery = "SELECT * FROM table1";
+        SqlConnection sqlConnection = new(conSTR);
+        sqlConnection.Open();
+        SqlCommand sqlCommand = new(xquery, sqlConnection);
+        SqlDataAdapter dataAdapter = new(sqlCommand);
+        DataTable dataTable = new();
+        dataAdapter.Fill(dataTable);
+        dataSource = (from DataRow data in dataTable.Rows
+                       select new OrderDetails()
+                           {
+                               Quantity = Convert.ToInt32(data["Quantity"]),                               
+                               Product= data["Product"].ToString(),
+                               Date = data["Date"].ToString(),
+                               Country = data["Country"].ToString(),
+                               Amount = Convert.ToDouble(data["Amount"])
+                           }).ToList();
+
+    }
+
+    public class OrderDetails
+    {
+        public int Quantity { get; set; }
+        public string Product { get; set; }
+        public string Date { get; set; }
+        public string Country { get; set; }
+        public double Amount { get; set; }
+        }
+   
+}
+
+
