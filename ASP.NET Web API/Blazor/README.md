@@ -12,7 +12,7 @@ Before beginning work on the server and client projects, ensure the following so
 
 ## How to run this application?
 
-To run this application, clone the [how-to-bind-SQL-database-to-pivot-table](https://github.com/SyncfusionExamples/how-to-bind-SQL-to-pivot-table.git) repository.
+To run this application, clone the [how-to-bind-SQL-database-to-pivot-table](https://github.com/SyncfusionExamples/how-to-bind-SQL-database-to-pivot-table) repository.
 
 ### Using the Web API service to connect MySql to a Pivot Table
 
